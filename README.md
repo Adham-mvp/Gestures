@@ -14,7 +14,7 @@
 
 ## 🛠️ Built With
 
-*   **Language:** Java / Kotlin
+*   **Language:** Java
 *   **Platform:** Android (SDK 21+)
 *   **Core APIs:** Android CameraX (for camera feed) & Machine Learning framework (e.g., MediaPipe / TensorFlow Lite for gesture detection)
 *   **IDE:** Android Studio
