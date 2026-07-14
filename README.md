@@ -1,20 +1,24 @@
-# Gestures 🖐️
+# Hand Gesture App
 
-**Gestures** is an Android application that uses the device's camera to capture, track, and interpret hand gestures in real time. By translating physical hand movements into digital commands, the app offers a hands-free way to interact with your phone.
+## IMPORTANT: Download the model file first!
 
----
+Before opening in Android Studio, download this file:
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
 
-## 🌟 Key Features
+Save it to:  app/src/main/assets/hand_landmarker.task
+(create the assets folder if it doesn't exist)
 
-*   **Real-Time Hand Tracking:** Leverages the front or rear camera to detect hand presence and track finger movements instantly.
-*   **Gesture Interpretation:** Translates specific hand poses and movements (like swipes, waves, or fist pinches) into actions or text.
-*   **Low Latency Performance:** Optimized for mobile devices to ensure fast detection and smooth user interaction.
+## Gestures
+- Thumbs Up → OK!
+- Thumbs Down → Not OK!
+- Wave → Hello!
+- Middle Finger → Not Cool!
+- Peace sign → Peace!
+- Open Palm → Stop!
+- Fist → Power!
+- Index finger up → Number One!
 
----
-
-## 🛠️ Built With
-
-*   **Language:** Java
-*   **Platform:** Android (SDK 21+)
-*   **Core APIs:** Android CameraX (for camera feed) & Machine Learning framework (e.g., MediaPipe / TensorFlow Lite for gesture detection)
-*   **IDE:** Android Studio
+## Requirements
+- Android Studio Hedgehog or newer
+- Physical Android device (min Android 7.0)
+- Java 21
